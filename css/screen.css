@@ -1,0 +1,214 @@
+
+#customform {
+	font: 90%/1.3 arial,sans-serif;
+	padding:0em;
+	margin:0em;
+	width:40em;
+    color: #555555;
+
+}
+
+#customform fieldset div {
+	margin:0.3em 0;
+	clear:both;
+
+}
+
+#customform label {
+	float:left;
+	width:10em;
+	text-align:right;
+	margin-right:1em;
+
+}
+#customform legend {
+	color:#006699;
+	font-size:1.2em;
+}
+#customform legend span {
+	width:10em;
+	text-align:right;
+}
+#customform input {
+    padding:0.15em;
+	border:1px solid #ddd;
+	background:#fafafa;
+	font:bold 0.95em arial, sans-serif;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+#customform textarea {
+    padding:0.15em;
+	border:1px solid #ddd;
+	background:#fafafa;
+	font:bold 0.95em arial, sans-serif;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+
+#customform .imageframe {
+  width:10em;
+  text-align:right;
+  width:100px;
+  height:100px;
+  border: thin dashed #222222
+}
+
+
+#customform .readonly{
+  background: #FFFF99;
+  color: #6d6d6d;
+}
+
+#customform .readonly:hover, input:focus{
+  background: #FFFF99
+}
+
+
+
+#customform .inputlong {
+   width:395px;
+}
+
+#customform .inputmedium{
+    width:10em;
+}
+
+#customform .inputtiny {
+   width:2em;
+}
+
+#customform .inputsmall {
+   width:5em;
+}
+
+
+#customform input:hover, input:focus {
+	border-color:#c5c5c5;
+	background:#f6f6f6;
+}
+#customform fieldset {
+	border:1px solid #FF9900;
+	padding:0 0.5em 0.5em;
+}
+#customform .date input {
+	background-image:url(../images/calendar-small.gif);
+	background-repeat:no-repeat;
+	background-position:100% 50%;
+}
+
+#customform .date fieldset label {
+	float:none;
+	display:block;
+	text-align:left;
+	width:auto;
+}
+#customform .date fieldset div {
+	float:left;
+	clear:none;
+	margin-right:0.2em;
+}
+#customform .radio, #customform .date {
+	position:relative;
+}
+#customform .radio fieldset, #customform .date fieldset {
+	border:none;
+	width:auto;
+	padding:1px 0 0 11em;
+
+}
+#customform .radio legend, #customform .date legend {
+	font-size:1em;
+    color:#555555;
+}
+#customform .radio legend span, #customform .date legend span {
+	position:absolute;
+	left:0;
+	top:0.3em;
+	width:10em;
+	display:block;
+}
+#customform .radio label, #customform .radio input {
+	vertical-align:middle;
+	display:inline;
+	float:none;
+	width:auto;
+	background:none;
+	border:none;
+}
+#customform .radio div {
+	float:left;
+	white-space:nowrap;
+	clear:none;
+}
+
+#customform .email {
+	width:14em;
+}
+
+#customform input.default {
+	color:#bbb;
+}
+
+#customform .button {
+	margin-top:1em;
+	width:110px;
+	height:26px;
+	overflow:hidden;
+	border:0;
+	background:url(../images/button.gif) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+    font-weight: bold;
+    color:white;
+}
+#customform .button:hover {
+	background-position:0 -26px;
+}
+
+.imagebutton {
+    margin-top:5px;
+    margin-bottom:5px;
+    width:110px;
+    padding:0.15em;
+	border:1px solid #ddd;
+	background:#EEEEEE;
+	font:normal 0.95em arial, sans-serif;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+    color:#444444;
+  	cursor:pointer !important; cursor:hand;
+    float:right;
+}
+
+.dropdown {
+    padding:0.15em;
+	border:1px solid #ddd;
+	background:#fafafa;
+	font:bold 0.95em arial, sans-serif;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+    width:5em;
+}
+
+.dd_long {
+      width:395px;
+}
+
+
+
+
+/*
+input[type=checkbox], input[type=radio] { visibility: hidden; width:0; height:0; padding:0; margin:0; }
+input[type=checkbox] + label, input[type=radio] + label { padding-left:18px; }
+input[type=checkbox] + label{ background: url(../images/check_radio.png) 0 0 no-repeat; }
+input[type=checkbox]:focus + label{ background-position: 0 -16px; }
+input[type=checkbox] + label:hover{ background-position: 0 -32px; }
+input[type=checkbox]:checked + label{ background-position: 0 -48px; }
+
+input[type=radio] + label{ background: url(../images/check_radio.png) 0 -64px no-repeat; }
+input[type=radio]:focus + label{ background-position: 0 -80px; }
+input[type=radio] + label:hover{ background-position: 0 -96px; }
+input[type=radio]:checked + label{ background-position: 0 -112px; }
+*/

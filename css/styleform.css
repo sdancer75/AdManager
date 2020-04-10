@@ -1,0 +1,66 @@
+
+
+#login-form  {
+  font-family: Georgia, serif;
+  background: url(../images/login.png) top center no-repeat;
+  width:488px;
+  height:254px;
+}
+
+
+#form1  {
+  font-family: Georgia, serif;
+  background: url(../images/form1.png) top center no-repeat;
+  width:473px;
+  height:363px;
+}
+
+.clear { clear: both; }
+
+#login-form form {
+   position:absolute;
+   margin-top:60px;
+   margin-left:30px;
+
+}
+
+legend { display: none; }
+
+fieldset { border: 0; }
+
+#login-form label {
+  width: 115px;
+  text-align: right;
+  float: left;
+  margin: 0px 10px 0 0;
+  padding: 9px 0 0 0;
+  font-size: 16px;
+}
+
+#login-form input{
+
+  width: 220px;
+  display: block;
+  padding: 4px;
+  margin: 0px 0 10px 0;
+  font-size: 18px;
+  color: #3a3a3a;
+  font-family: Georgia, serif;
+}
+#login-form input[type=checkbox]{
+  width: 20px;
+  margin: 0;
+  display: inline-block;
+}
+
+#login-form .button	{
+  background: url(../images/button-bg.png) repeat-x top center;
+  border: 1px solid #999;
+  -moz-border-radius: 5px; padding: 5px; color: black; font-weight: bold;
+  -webkit-border-radius: 5px; font-size: 13px;  width: 70px;
+}
+
+#login-form .button:hover{
+  background: white;
+  color: black;
+}

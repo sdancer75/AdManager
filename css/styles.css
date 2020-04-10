@@ -1,0 +1,332 @@
+﻿@import url('reset.css');
+.clear {
+	clear: both;
+}
+a:focus {
+	outline: none;
+}
+
+.link {
+  background-image: url('../images/bulleticon.png');
+  width: 17px;
+  height: 17px;
+  background-repeat: no-repeat;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  text-decoration: none;
+  padding-left:20px;
+}
+
+
+#top {
+	height: 93px;
+	background-color: #303123;
+}
+#top-menu {
+	position: relative;
+	width: 960px;
+	height: 93px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#top-menu h1 a {
+	background-image: url('../images/top-logo.png');
+	width: 179px;
+	height: 41px;
+	position: relative;
+	display: block;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	margin-left: 99px;
+	top: 34px;
+	float: left;
+}
+ul#nav-bar {
+	float: right;
+	margin-right: 54px;
+	margin-top: 34px;
+	position: relative;
+	width: 620px;
+}
+ul#nav-bar li {
+	border: 2px solid #303123;
+	position: relative;
+	float: left;
+	height: 17px;
+	padding-top: 2px;
+	margin-right: 2px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+ul#nav-bar li#home a{
+	width: 80px;
+}
+ul#nav-bar li#statistics a{
+	width: 80px;
+}
+ul#nav-bar li#category a{
+	width: 80px;
+}
+ul#nav-bar li#adv a{
+	width: 80px;
+}
+
+ul#nav-bar li#users a{
+	width: 80px;
+}
+ul#nav-bar li#about a{
+	width: 80px;
+}
+
+ul#nav-bar li#logout a{
+	width: 80px;
+}
+
+ul#nav-bar li a{
+	display: block;
+	color: #b5b3b3;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-align: center;
+}
+ul#nav-bar li.current, ul#nav-bar li:hover, ul#nav-bar li.current a{
+	border-color:#444532;
+	color: #ffffff;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+ul#nav-bar li a:hover{
+	color: #ffffff;
+}
+#header {
+	background-image: url('../images/header-bg.jpg');
+	background-repeat: repeat-x;
+	height: 235px;
+}
+#header-wrap {
+	position: relative;
+	width: 350px;
+	background: url('../images/header.png') no-repeat;
+	height: 188px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 543px;
+	padding-top: 27px;
+	padding-right: 131px;
+}
+
+#header-wrap p {
+	font-family: helvetica, "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #ffffff;
+	line-height: 17px;
+	font-style: italic;
+    text-align:center;
+}
+#header-title h2{
+
+	font-family: helvetica, "Times New Roman", Times, serif;
+	font-size: 30px;
+	color: #ffffff;
+	line-height: 17px;
+    font-weight: bold;
+	position: relative;
+    text-align:center;
+}
+
+#header-title h4,
+#header-title a,
+#header-title a:hover,
+#header-title a:visited{
+
+	font-family: arial, "Times New Roman", Times, serif;
+	font-size: 15px;
+	color: #000;
+	line-height: 40px;
+    font-weight: bold;
+	position: relative;
+    text-align:center;
+    text-decoration: none;
+}
+
+#content {
+	background-image: url('../images/main-content-bg.jpg');
+	background-color: #f2efef;
+	background-repeat: repeat-x;
+	padding-bottom: 70px;
+}
+#content-wrap {
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:37px;
+	padding-top:47px;
+	position:relative;
+	width:789px;
+}
+#content-wrap h3 {
+	font-family: candara, arial, Helvetica, sans-serif;
+	color: #616161;
+	font-size: 19px;
+	margin-bottom: 26px;
+}
+.welcome p {
+	color: #333333;
+	font-family: helvetica, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 17px;
+	margin-top: 22px;
+}
+
+.texttype {
+    padding:5px;
+	background-image: url('../images/text.png');
+	background-repeat: no-repeat;
+	background-position: center;
+    width:auto;
+    height:128px;
+
+
+
+}
+
+.imagetype {
+    padding:5px;
+	background-image: url('../images/image.png');
+	background-repeat: no-repeat;
+	background-position: center;
+    width:auto;
+    height:128px;
+
+}
+
+.codetype {
+    padding:5px;
+	background-image: url('../images/code.png');
+	background-repeat: no-repeat;
+	background-position: center;
+    width:auto;
+    height:128px;
+}
+
+#col-left {
+    border:1px dotted #CCCCCC;
+	margin-right:42px;
+	width:210px;
+    text-align:center;
+
+}
+
+#col-left:hover {
+    border:1px solid #990000;
+}
+
+#col-mid {
+    border:1px dotted #CCCCCC;
+	margin-right:42px;
+	width:239px;
+    text-align:center;
+}
+
+#col-mid:hover {
+    border:1px solid #990000;
+}
+
+#col-right {
+    border:1px dotted #CCCCCC;
+	width: 249px;
+    text-align:center;
+}
+
+#col-right:hover {
+    border:1px solid #990000;
+}
+
+.cols {
+
+	position: relative;
+	float: left;
+	margin-top: 45px;
+
+
+}
+
+
+.cols p {
+	color: #555555;
+	font-family: helvetica, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 7px;
+	margin-bottom: 2px;
+	position: relative;
+    margin-top: 20px;
+}
+.cols ul {
+	font-family: helvetica, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #616161;
+	line-height: 17px;
+}
+.cols ul li {
+	margin-bottom: 19px;
+}
+#col-mid ul li {
+	background-image: url('../images/bullet.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 17px;
+}
+#col-right ul li {
+	background-image: url('../images/bullet-coin.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 27px;
+}
+#footer {
+	background-image: url('../images/footer-top-bg.jpg');
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #303123;
+}
+#footer-wrap {
+	position: relative;
+	width: 770px;
+	height: 28px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 14px;
+}
+#footer-wrap h4 {
+
+	width: 0px;
+	height: 24px;
+	position: relative;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	float: left;
+	margin-right: 4px;
+}
+#footer-wrap p {
+	font-family: arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #ffffff;
+	margin-top: 4px;
+	margin-left: 5px;
+	position: relative;
+	width: 365px;
+}
+#footer-wrap p a{
+	color: #ffffff;
+}
+.rss {
+	font-size: 9px;
+	text-decoration: none;
+	color: #ffffff;
+	background-image: url('../images/rss-icon.jpg');
+	background-repeat: no-repeat;
+	padding-left: 17px;
+	width: 20px;
+	float: right;
+}
