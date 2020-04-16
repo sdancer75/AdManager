@@ -93,13 +93,20 @@ Before you create an advertisment you have to create a category for this. For ex
 side of your web site, you have to create a category with a name ie "Left Side Banners". Under this category, you can add as many banners
 as you want. The size is fixed either in Height, or Width or both of them. Exception to this is the GIF images and swf files. In case of the GIF images, you have to resize the image by yourself and in the case of swf files, you have to enter the appropriate size in the swf box. 
 
-![Image2](/Pics/Screenshot_2.jpg)
-![Image3](/Pics/Screenshot_3.jpg)
-
 
 To Do List
 ===========
 1. To finish the translation files.
 2. To create an preprogrammed list of css styles
 
-"# AdManager" 
+Some images from the environment inside.
+
+![Image3](/Pics/Screenshot_3.jpg)
+![Image2](/Pics/Screenshot_2.jpg)
+![Image4](/Pics/Screenshot_4.jpg)
+![Image5](/Pics/Screenshot_5.jpg)
+![Image6](/Pics/Screenshot_6.jpg)
+![Image7](/Pics/Screenshot_7.jpg)
+![Image8](/Pics/Screenshot_8.jpg)
+![Image9](/Pics/Screenshot_9.jpg)
+
